@@ -1,12 +1,12 @@
 :root {
-    --bg-body: #b7d9ea;
-    --fg-body: #354953;
-    --bg-primary: #4659d7;
+    --bg-body: #c2eed4;
+    --fg-body: #104b64;
+    --bg-primary: #6e81fa;
     --fg-primary: #15155c;
-    --bg-success: #6ad46a;
+    --bg-success: #79f179;
     --fg-success: #165816;
-    --bg-danger: #c83c3c;
-    --fg-danger: #471010;
+    --bg-danger: #ee4848;
+    --fg-danger: #811414;
 }
 
 #root {
@@ -30,7 +30,10 @@ ul {
 .input:not(.check-input) {
     padding: 0.3rem;
     border: var(--fg-body) 1px solid;
-    border-radius: 0.3rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0rem;
     color: var(--fg-body);
     background-color: #00000000;
     outline: none !important;
@@ -40,7 +43,7 @@ ul {
 .btn {
     cursor: pointer;
     padding: 0.3rem 0.6rem;
-    border-radius: 0.3rem;
+    border-radius: 0;
     border: none;
 }
 
