@@ -39,8 +39,7 @@ const Tasks = () => {
 
     return (
         <div>
-            <h1>To Do List</h1>
-            <h3>Tasks</h3>
+            <h1>To Do App</h1>
             <ul>
                 {tasks.map(task => (
                     <Task key={task.id} taskId={task.id} taskName={task.name} taskCompleted={task.completed} deleteTask={deleteTask} />
