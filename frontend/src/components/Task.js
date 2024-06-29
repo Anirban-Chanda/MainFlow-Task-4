@@ -33,7 +33,7 @@ const Task = ({ taskId, taskName, taskCompleted, deleteTask }) => {
             <div className={taskCurrentCompleted === "true" ? "task-success" : "task-danger"}>
                 {taskName}
             </div>
-            <button className="btn btn-danger" onClick={() => deleteTask(taskId)}>Delete Task</button>
+            <button className="btn btn-danger" onClick={() => deleteTask(taskId)}>Remove</button>
         </li>
     );
 };
